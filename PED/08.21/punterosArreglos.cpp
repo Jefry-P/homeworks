@@ -9,12 +9,7 @@ int main(){
     cout << *vector<< endl;
     cout << *(vector + 2)<< endl; //aritmetica de punteros
 
-    int *ptr = vector;
-    cout<<"Recorriendo: "<< endl;
-    for (int i = 0; i < 5; i++)
-    {
-        cout << *(vector + i)<< "="<<ptr++<<endl;
-    }
+    
     
     
     //Ejercicio 1
