@@ -33,6 +33,7 @@ int main(){
     cout<<"Elemento de la cima: " << Cima()->elemento<< endl;
     cout<<"Direccion de la ultima estructura o ultimo elemento: "<<pila<<endl;
     cout<<"Direccion del ultimo puntero"<<&pila<<endl;
+    cout<<&(pila->siguiente->siguiente->elemento);
 
 
     return 0;
