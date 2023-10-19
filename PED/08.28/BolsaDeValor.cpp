@@ -1,5 +1,6 @@
 #include <iostream>
 #include <unistd.h>
+#include <time.h> //La necesita windows
 using namespace std;
 
 struct Empresa{
