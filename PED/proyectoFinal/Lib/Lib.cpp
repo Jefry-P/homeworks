@@ -63,7 +63,7 @@ bool login(){
     string user, pass;
     cin.ignore();
     cout<<"----------------------------"<<endl;
-    cout<<"    INICIO DE SESION"<<endl;
+    cout<<"      INICIO DE SESION"<<endl;
     cout<<"----------------------------"<<endl;
     cout<<"Ingrese su usuario >> ";cin>>user;
     cout<<"Ingrese su contrasena >> ";cin>>pass;
@@ -130,7 +130,7 @@ void displayMainMenu(){
 
 void displayMainMenuPremium(){
     cout<<"----------------------------"<<endl;
-    cout<<"           MENU"<<endl;
+    cout<<"           MENU+"<<endl;
     cout<<"----------------------------"<<endl;
     cout<<"1. Ver playlist disponibles"<<endl;
     cout<<"2. Crear playlist"<<endl;
